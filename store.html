@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Plant Store</title>
+        <link rel="stylesheet" href="store.css" />
+    </head>
+    <body>
+        <div id="carousel"><h1>a carousel will be here</h1></div>
+        <form id="filterSort" action="" method="post">
+            <div>
+                <label for="cars">Filter:</label>
+                <select id="cars" name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <button class="button">Go</button>
+            </div>
+            <div>
+                <label for="cars">Sort:</label>
+                <select id="cars" name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <button class="button">Go</button>
+            </div>
+        </form>
+        <div class="container">
+            <div id="productsDiv">
+                <div class="product" onclick="openProductPage()">
+                    <img
+                        class="productImage"
+                        src="images/plant.jpg"
+                        alt="Plant image"
+                    />
+                    <h4 class="productTitle">Product Name</h4>
+                    <p>₹ 1000 ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="product" onclick="openProductPage()">
+                    <img
+                        class="productImage"
+                        src="images/plant.jpg"
+                        alt="Plant image"
+                    />
+                    <h4 class="productTitle">Product Name</h4>
+                    <p>₹ 1000 ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="product" onclick="openProductPage()">
+                    <img
+                        class="productImage"
+                        src="images/plant.jpg"
+                        alt="Plant image"
+                    />
+                    <h4 class="productTitle">Product Name</h4>
+                    <p>₹ 1000 ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="product" onclick="openProductPage()">
+                    <img
+                        class="productImage"
+                        src="images/plant.jpg"
+                        alt="Plant image"
+                    />
+                    <h4 class="productTitle">Product Name</h4>
+                    <p>₹ 1000 ⭐⭐⭐⭐⭐</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="controlProductPage.js"></script>
+    </body>
+</html>

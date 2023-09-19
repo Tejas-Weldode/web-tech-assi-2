@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+        <title>Document</title>
+        <link rel="stylesheet" href="productImagesCarousel.css" />
+        <link rel="stylesheet" href="product.css" />
+    </head>
+    <body>
+        <!-- productImagesCarousel START -->
+        <div id="productImagesCarousel">
+            <div id="Main">
+                <img class="hide" src="images/plant1.jpg" />
+                <img class="hide" src="images/plant2.jpg" />
+                <img class="hide" src="images/plant3.jpg" />
+                <img class="hide" src="images/plant4.jpg" />
+            </div>
+            <div id="NavigateCarousel">
+                <a class="prev" onclick="prev()">&#10094;</a>
+                <a class="next" onclick="next()">&#10095;</a>
+            </div>
+            <div id="Others">
+                <img class="inactive" src="images/plant1.jpg" onclick="OpenImage(0)"/>
+                <img class="inactive" src="images/plant2.jpg" onclick="OpenImage(1)"/>
+                <img class="inactive" src="images/plant3.jpg" onclick="OpenImage(2)"/>
+                <img class="inactive" src="images/plant4.jpg" onclick="OpenImage(3)"/>
+            </div>
+        </div>
+        <!-- productImagesCarousel END -->
+        <div id="productDetails">
+            <h1 id="productName">Product Name</h1>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p id="productDescription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit ipsa expedita obcaecati consectetur aspernatur
+                molestiae? Ut nulla iusto quia consectetur.
+            </p>
+            <p id="productPrice">₹1000</p>
+            <p id="productMRP">MRP: ₹1700</p>
+            <div>
+                <button class="btn">Add to Cart</button>
+                <button class="btn">Buy Now</button>
+            </div>
+            <div id="productReviews">
+                <h2>Reviews ⭐⭐⭐⭐⭐</h2>
+                <div class="review">
+                    <div class="reviewer">
+                        <img src="images/profile.jpg" />
+                        <h3>Name of Customer</h3>
+                    </div>
+                    <p><b>Rating: </b>⭐⭐⭐⭐⭐</p>
+                    <p>
+                        This is my review Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Aspernatur itaque officia
+                        ea cum inventore error magni. Exercitationem officia
+                        autem earum.
+                    </p>
+                </div>
+                <div class="review">
+                    <div class="reviewer">
+                        <img src="images/profile.jpg" />
+                        <h3>Name of Customer</h3>
+                    </div>
+                    <p><b>Rating: </b>⭐⭐⭐⭐⭐</p>
+                    <p>
+                        This is my review Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Aspernatur itaque officia
+                        ea cum inventore error magni. Exercitationem officia
+                        autem earum.
+                    </p>
+                </div>
+                <div class="review">
+                    <div class="reviewer">
+                        <img src="images/profile.jpg" />
+                        <h3>Name of Customer</h3>
+                    </div>
+                    <p><b>Rating: </b>⭐⭐⭐⭐⭐</p>
+                    <p>
+                        This is my review Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Aspernatur itaque officia
+                        ea cum inventore error magni. Exercitationem officia
+                        autem earum.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="productImagesCarousel.js"></script>
+    </body>
+</html>

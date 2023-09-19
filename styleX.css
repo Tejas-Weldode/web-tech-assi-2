@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog {
+    background-color: rgb(205, 255, 198);
+    margin: 10px 50px;
+    padding: 20px;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.date {
+    font-weight: 100;
+    font-size: small;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 70px;
+    color: green;
+}
+
+body {
+    background: rgb(195, 249, 206);
+    background: linear-gradient(
+        135deg,
+        rgba(195, 249, 206, 1) 0%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(204, 230, 255, 1) 100%
+    );
+}

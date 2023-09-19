@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.productImage{
+    height: 500px;
+    width: auto;
+}
+
+#productPrice{
+    font-weight: 700;
+    font-size:x-large;
+}
+
+#productMRP{
+    text-decoration: line-through;
+}
+
+#productDetails{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.btn{
+    background: rgb(3, 192, 3);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: medium;
+    font-weight: 750;
+    color: white;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#productReviews{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.review{
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.07)
+}
+
+.reviewer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.review img{
+    height: 30px;
+    width: auto;
+}
